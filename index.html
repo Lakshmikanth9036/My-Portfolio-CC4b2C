@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assests/css/style.css" />
+
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assests/css/all.min.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+
+        <div>
+          <a href="#" class="nav__logo">Lakshmikanth</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#works" class="nav__link">Works</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact ME</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <div class="home__data">
+            <div class="home__img">
+              <img src="assests/img/Profile.png" alt="" />
+            </div>
+            <h1 class="home__title">Lakshmikanth N</h1>
+            <span class="home__profession">Fullstack Developer</span>
+
+            <div class="home__social">
+              <a href="#" class="home__social-link"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a href="#" class="home__social-link"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a href="#" class="home__social-link"
+                ><i class="bx bxl-google-plus"></i
+              ></a>
+              <a href="#" class="home__social-link"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+            </div>
+
+            <a download href="assests/cv/Lakshmikanth_BE(CSE)_2019_Resume.pdf" class="button home__button"
+              >Download Resume</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <span class="section-subtitle">My intro</span>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <p class="about__description">
+              Hi, I'm a full-stack developer, passionate about creating and
+              developing web interfaces and rest APIs. As being a fresher, I
+              have exposure to multiple technologies and worked on a project
+              using these technologies.
+            </p>
+            <img src="assests/img/about.jpg" alt="" class="about__img" />
+          </div>
+
+          <div>
+            <div class="about__information">
+              <h3 class="about__information-title">Information</h3>
+
+              <div class="about__information-data">
+                <i class="bx bx-user about__information-icon"></i>
+                <span>Lakshmikanth N</span>
+              </div>
+
+              <div class="about__information-data">
+                <i class="bx bx-phone about__information-icon"></i>
+                <span>+91 8660025970</span>
+              </div>
+
+              <div class="about__information-data">
+                <i class="bx bx-envelope about__information-icon"></i>
+                <span>kanth9036.1997@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="about__information">
+              <h3 class="about__information-title">Experience and support</h3>
+
+              <div class="about__information-data">
+                <i class="bx bx-medal about__information-icon"></i>
+                <div>
+                  <span class="about__information-subtitle">1 Year</span>
+                  <span class="about__information-subtitle-small"
+                    >Experience</span
+                  >
+                </div>
+              </div>
+
+              <div class="about__information-data">
+                <i class="bx bx-briefcase about__information-icon"></i>
+                <div>
+                  <span class="about__information-subtitle">5+ Projects</span>
+                  <span class="about__information-subtitle-small"
+                    >Completed</span
+                  >
+                </div>
+              </div>
+
+              <div class="about__information-data">
+                <i class="bx bx-support about__information-icon"></i>
+                <div>
+                  <span class="about__information-subtitle">Support</span>
+                  <span class="about__information-subtitle-small"
+                    >Online 24/7</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <span class="section-subtitle">Why Choose Me</span>
+        <h2 class="section-title">My expertise Area</h2>
+
+        <div class="skills__container bd-grid">
+          <div class="skill__content">
+            <h3 class="skills__subtitle">Frontend</h3>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-css3-alt skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div>
+                <span class="skills__percentage">77%</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-js-square skills__icon"></i>
+                <span class="skills__name">Javascript</span>
+              </div>
+              <div>
+                <span class="skills__percentage">75%</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-react skills__icon"></i>
+                <span class="skills__name">React JS</span>
+              </div>
+              <div>
+                <span class="skills__percentage">90%</span>
+              </div>
+              <div class="skills__bar skills__react"></div>
+            </div>
+          </div>
+
+          <div class="skill__content">
+            <h3 class="skills__subtitle">Backend</h3>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-java skills__icon"></i>
+                <span class="skills__name">Java</span>
+              </div>
+              <div>
+                <span class="skills__percentage">90%</span>
+              </div>
+              <div class="skills__bar skills__java"></div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fas fa-database skills__icon"></i>
+                <span class="skills__name">Mysql</span>
+              </div>
+              <div>
+                <span class="skills__percentage">70%</span>
+              </div>
+              <div class="skills__bar skills__mysql"></div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-docker skills__icon"></i>
+                <span class="skills__name">Docker</span>
+              </div>
+              <div>
+                <span class="skills__percentage">60%</span>
+              </div>
+              <div class="skills__bar skills__docker"></div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-python skills__icon"></i>
+                <span class="skills__name">Python</span>
+              </div>
+              <div>
+                <span class="skills__percentage">60%</span>
+              </div>
+              <div class="skills__bar skills__python"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== EDUCATION =====-->
+      <section class="education section">
+        <span class="section-subtitle">Qualification</span>
+        <h2 class="section-title">My Education</h2>
+
+        <div class="education__container bd-grid">
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2010 - 2013</h3>
+              <span class="education__university">University of Studies</span>
+            </div>
+
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+
+            <div>
+              <h3 class="education__race">Diploma Development</h3>
+              <span class="education__speciality">Frontend</span>
+            </div>
+          </div>
+
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2014 - 2017</h3>
+              <span class="education__university">University of Studies</span>
+            </div>
+
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+
+            <div>
+              <h3 class="education__race">Diploma Development</h3>
+              <span class="education__speciality">Backend</span>
+            </div>
+          </div>
+
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2018 - 2020</h3>
+              <span class="education__university">University of Studies</span>
+            </div>
+
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+
+            <div>
+              <h3 class="education__race">Diploma Design</h3>
+              <span class="education__speciality">UI/UX</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SERVICES =====-->
+      <section class="services section" id="services">
+        <span class="section-subtitle">What I Offer</span>
+        <h2 class="section-title">My Services</h2>
+
+        <div class="services__container bd-grid">
+          <div class="services__content">
+            <i class="bx bx-code services__icon"></i>
+            <h3 class="services__title">Web Design</h3>
+            <p class="services__description">
+              This service that I offer is of high quality, and above all
+              experience that I have in the labor field for many years
+            </p>
+          </div>
+
+          <div class="services__content">
+            <i class='bx bx-server services__icon' ></i>
+            <h3 class="services__title">Backend Developer</h3>
+            <p class="services__description">
+              This service that I offer is of high quality, and above all
+              experience that I have in the labor field for many years
+            </p>
+          </div>
+
+          <div class="services__content">
+            <i class="bx bx-brush services__icon"></i>
+            <h3 class="services__title">UI/UX</h3>
+            <p class="services__description">
+              This service that I offer is of high quality, and above all
+              experience that I have in the labor field for many years
+            </p>
+          </div>
+
+          <div class="services__content">
+            <i class="bx bx-pen services__icon"></i>
+            <h3 class="services__title">Graphic Designer</h3>
+            <p class="services__description">
+              This service that I offer is of high quality, and above all
+              experience that I have in the labor field for many years
+            </p>
+          </div>
+
+          <div class="services__content">
+            <i class="bx bx-infinite services__icon"></i>
+            <h3 class="services__title">CICD</h3>
+            <p class="services__description">
+              This service that I offer is of high quality, and above all
+              experience that I have in the labor field for many years
+            </p>
+          </div>
+
+          <div class="services__content">
+            <i class="bx bx-network-chart services__icon"></i>
+            <h3 class="services__title">Ethical Hacking</h3>
+            <p class="services__description">
+              This service that I offer is of high quality, and above all
+              experience that I have in the labor field for many years
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== PROJECT IN MIND =====-->
+      <section class="project section">
+        <div class="project__container bd-grid">
+          <div class="project__data">
+            <h2 class="section-title project__title">
+              Do you have a project in mind
+            </h2>
+            <p class="project__description">
+              This service that I offer is of high quality, and above all
+              experience that I have in the labor field for many years.
+            </p>
+            <a href="#contact" class="button button__light">Contact Me</a>
+          </div>
+          <img src="assests/img/mind.png" alt="" class="project__img" />
+        </div>
+      </section>
+
+      <!--===== WORKS =====-->
+      <section class="works section" id="works">
+        <span class="section-subtitle">My portfolio</span>
+        <h2 class="section-title">Recent Works</h2>
+
+        <div class="works__container bd-grid">
+          <div class="works__img">
+            <img src="assests/img/work1.png" alt="bookstore" />
+
+            <div class="works__data">
+              <a
+                href="https://lakshmikanth9036.github.io/bookstore/user"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="works__links"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title">My Book-store</span>
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="assests/img/work2.png" alt="bootstrap-basics" />
+
+            <div class="works__data">
+              <a
+                href="https://lakshmikanth9036.github.io/Bootstrap4-Sandbox-with-5-Projects/bootstrap_sandbox/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="works__links"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title">Bootstrap Basics</span>
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="assests/img/work3.png" alt="burger" />
+
+            <div class="works__data">
+              <a
+                href="https://react-my-burger-6ae47.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="works__links"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title">My Burger</span>
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="assests/img/work4.png" alt="responsive-signin-signup" />
+
+            <div class="works__data">
+              <a
+                href="https://lakshmikanth9036.github.io/Sliding-Signin-Signup/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="works__links"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title">Responsive Signin-Signup</span>
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="assests/img/work5.png" alt="gloozum" />
+
+            <div class="works__data">
+              <a
+                href="https://lakshmikanth9036.github.io/Bootstrap4-Sandbox-with-5-Projects/Glozzom%20Multi%20Page%20Theme/index.html#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="works__links"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title">Gloozum Site</span>
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="assests/img/work6.png" alt="sliding-signin-signup" />
+
+            <div class="works__data">
+              <a
+                href="https://lakshmikanth9036.github.io/Box-Sliding-Sign-in-up/?#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="works__links"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title">Sliding Signin-Signup</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+          <span class="section-subtitle">Contact Me</span>
+          <h2 class="section-title">Get In Touch</h2>
+
+          <div class="contact__container bd-grid">
+              <form action="" class="contact__form">
+                  <div class="contact__inputs">
+                  <input type="text" placeholder="Name" class="contact__input">
+                  <input type="mail" placeholder="Email" class="contact__input">
+                </div>
+                <input type="text" placeholder="Project" class="contact__input">
+
+                <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+                <input type="submit" value="Send Message" class="button contact__button">
+                </form>
+
+                <div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Call me</h3>
+                        <span class="contact__text">+91 8660025970</span>
+                        <span class="contact__text">+91 8660025970</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">E-mail</h3>
+                        <span class="contact__text">kanth9036.1997@gmail.com</span>
+                        <span class="contact__text">kanth1997.9036@gmail.com</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Location</h3>
+                        <span class="contact__text">Karnataka</span>
+                        <span class="contact__text">Bengaluru - 560061</span>
+                    </div>
+                </div>
+          </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <h1 class="footer__title">Lakshmikanth</h1>
+            <p class="footer__description">I am Lakshmikanth and this is my personal website, consult me here.</p>
+
+            <div class="footer__social">
+                <a href="#" class="footer__link"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="footer__link"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="footer__link"><i class="bx bxl-twitter"></i></a>
+            </div>
+
+            <p class="footer__copy">Copyright&copy; 2020</span> </p>
+        </div>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="assests/js/main.js"></script>
+  </body>
+</html>
